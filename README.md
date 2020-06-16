@@ -1,19 +1,22 @@
 ## LeNet Implementation
 
 ### LeNet Architecrure
-<p></p>
+<p>   
+</p>
 <center>
 <img src="img/lenet.png" align="center" width="700" height="300"/>
 </center>
 
 image is taken from [source](https://tianhaoo.github.io/2019/05/22/LeNet-5%E8%AF%86%E5%88%AB%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97/)   
-
+<p>   
+</p>
 <center>   
 <img src="img/1.png" width="700" height="200"/>   
 </center>
 
 image is taken from [source](https://neurohive.io/en/popular-networks/vgg16/)   
-
+<p>   
+</p>
 ### Training on MNIST
 <p></p>
 <center>
