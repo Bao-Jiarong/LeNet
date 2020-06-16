@@ -32,14 +32,20 @@ Training & Prediction can be run as follows:
 
 
 ### More information
-* Please refer to the original paper of LeNet [here](https://engmrk.com/lenet-5-a-classic-cnn-architecture/) for more information.
+* Please refer to the original paper of LeNet [here](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) for more information.
+
+### Implementation Note
+LeNet used 'relu' as activate function ,and MaxPool2D for pooling.
+LeNet_5 used 'tanh' as activate function ,and AveragePooling2D for pooling.
 
 ### Result for MNIST:   
 * Learning rate = 0.001  
 * Batch size = 32  
 * Optimizer = Adam   
-* epochs = 2
 
-Name |  Training Accuracy |  Validation Accuracy  |
-:---: | :---: | :---:
-LENet | 96.47% | 97.56%
+Name |  epochs  | Training Accuracy |  Validation Accuracy  |
+:---: | :---: | :---: | :---:
+LeNet   | 2  |  96.62% | 96.85%
+LeNet_5 | 2 |  96.54% | 96.64%
+LeNet   | 10  |  98.28% | 97.69%
+LeNet_5 | 10 |  98.82% | 98.30%

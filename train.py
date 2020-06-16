@@ -26,7 +26,7 @@ width      = 32
 height     = 32
 channel    = 3
 n_outputs  = 10
-model_name = "models/lenet/digists"
+model_name = "models/lenet_5/digists"
 data_path  = "../data_img/MNIST/train/"
 
 # Step 0: Global Parameters
@@ -35,7 +35,7 @@ lr_rate    = 0.001
 batch_size = 32
 
 # Step 1: Create Model
-model = lenet.LeNet((height, width, channel), classes = n_outputs)
+model = lenet.LeNet_5((height, width, channel), classes = n_outputs)
 
 # Step 2: Define Metrics
 model.compile(optimizer= tf.keras.optimizers.Adam(learning_rate = lr_rate),
