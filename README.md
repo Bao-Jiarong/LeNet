@@ -35,8 +35,8 @@ Training & Prediction can be run as follows:
 * Please refer to the original paper of LeNet [here](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) for more information.
 
 ### Implementation Note
-LeNet used 'relu' as activate function ,and MaxPool2D for pooling.
-LeNet_5 used 'tanh' as activate function ,and AveragePooling2D for pooling.
+* LeNet used 'relu' as activate function, and MaxPool2D for pooling.
+* LeNet_5 used 'tanh' as activate function, and AveragePooling2D for pooling.
 
 ### Result for MNIST:   
 * Learning rate = 0.001  
